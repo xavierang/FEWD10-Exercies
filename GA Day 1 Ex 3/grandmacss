@@ -1,0 +1,21 @@
+body {
+	background-color:#FFE;
+	border:3px solid black;
+}
+
+img{
+	margin-left:5px;
+	padding:2px;
+	border:2px solid black;
+}
+h3{
+	color:#887;
+}
+
+a{
+	color:#900;
+}
+
+p[class=footnote]{
+	font-size:0.8em;
+}
