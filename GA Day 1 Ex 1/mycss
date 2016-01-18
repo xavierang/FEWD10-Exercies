@@ -1,0 +1,14 @@
+h1{
+	color:red;
+	font-size:3em;
+	font-family: "Hobo Std",sans-serif;
+	/*text-align:center;*/
+}
+
+body{
+	background-color:yellow;
+}
+
+p, li{
+	font-size:1.2em;
+}
