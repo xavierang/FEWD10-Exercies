@@ -1,0 +1,29 @@
+p#notification{
+	background:#3452D0;
+	padding:0.5em 0.75em;
+	border:2px solid #D02019;
+}
+
+p#notification:before{
+	content:"!!!!!!!!!";
+	font-size:2em;
+	margin-right:5px;
+	color:white;
+}
+
+p#notification:after{
+	content:"!!!!!!!!!";
+	font-size:2em;
+	margin-left:5px;
+	color:white;
+}
+
+div.message{
+	font-family:Georgia,sans-serif;
+	margin:5px;
+	background:#D0172F;
+	color:#ffffff;
+	font-weight:italic;
+	line-height:2em;
+	font-size:1em;
+}
