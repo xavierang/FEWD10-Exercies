@@ -1,0 +1,63 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+}
+
+header{
+	background:#D01410;
+}
+
+.one{
+	text-align:center;
+	background:#A440D0;
+	float:left;
+	width:47%;
+}
+
+.two{
+	text-align:center;
+	background:#A440D0;
+	float:right;
+	width:47%;
+}
+
+.left {
+	background:#25D016;
+	float:left;
+	width:30%;
+}
+
+.middle {
+	margin-left:5%;
+	margin-right:5%;
+	background:#25D016;
+	float:left;
+	width:30%;
+}
+
+.right{
+	background:#25D016;
+	float:right;
+	width:30%;
+}
+
+main{
+	margin-bottom: 20px;
+}
+
+footer{
+	clear:both;
+	background:#3744D0;
+}

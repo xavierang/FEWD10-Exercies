@@ -1,0 +1,41 @@
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+}
+
+.placeholder{
+	background:#2E62D0;
+	border:2px solid black;
+	padding:20px;
+}
+
+#main{
+	float:left;
+	width:66.667%;
+}
+
+aside{
+	float:right;
+	width:33.333%;
+}
+
+footer{
+	clear:both;
+}
+
+ul{
+	list-style-type: none;
+	background:red;
+}
+
+li{
+	border:2px solid black;
+	margin-right:20px;
+	background:white;
+	float:left;
+}
+
