@@ -86,6 +86,9 @@
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
 
+ 	$('#button3').click(function(){
+ 		$(".city").attr("src", "img/download.jpeg");
+ 	});
  	
 
 
@@ -95,6 +98,14 @@
  * Bonus: Try to do this with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"});
  */
 
+ 	$('#button3').click(function(){
+ 		//$('p').css('color','blue');
+ 		//$('p').css('font-family','Georgia');
+ 		$('p').css({
+ 			'color':'blue',
+ 			'font-family':'Georgia'
+ 		})
+ 	});
 
  });
 
